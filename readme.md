@@ -1,6 +1,6 @@
-# **Algorithme pour retrouver des adresses dans Thonon-les-bains à partir de surface de passerelles à vendre**
+# ***Algorithme pour retrouver des adresses dans Thonon-les-bains à partir de surface de passerelles à vendre***
 
-##But du projet
+## But du projet
 
 Travail pour une agence immobilière dans le but de l'aider à retrouver les adresses des annonces sur des sites comme le bon coin, seulement en utilisant la surface du cadastre indiquée sur l'annonce (ainsi que la ville).
 Pour cela on utilise les données trouvées sur les sites du gouvernement:
