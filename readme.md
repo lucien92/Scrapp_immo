@@ -1,4 +1,4 @@
-#Algorithme pour retrouver des adresses dans Thonon-les-bains à partir de surface de passerelles à vendre
+# **Algorithme pour retrouver des adresses dans Thonon-les-bains à partir de surface de passerelles à vendre**
 
 ##But du projet
 
@@ -7,11 +7,11 @@ Pour cela on utilise les données trouvées sur les sites du gouvernement:
 -https://cadastre.data.gouv.fr/datasets/cadastre-etalab pour les contenances des cadastres et les coordonnées des polygones correspondant
 -https://adresse.data.gouv.fr/donnees-nationales pour les adresses et leur coordonnées sur un plan en latitude longitude
 
-##Approche du problème
+## **Approche du problème**
 
 Au lieu de scrapper le site de géoportail nous avons préférer travailler directement à l'échelle des données fournies par le gouvernement via des fichiers json. Tout d'abord nous rentrons unne contenance de parcelle et nous extractons tous les polygônes d'une zone ayant cette surface. Nous utilisons les coordonnées des polygônes représentant les parcelles puis nous cherchons dans la base de données des points correspondant aux adresses pour voir quel point se situe dans le polygône cherché, ou au moins à une proximité très proche. Nous obtenons ainsi un dictionnaire qui associe des numéros de parcelle de la contenance recherchée à des adresses suspectes. Pour retrouver l'adresse axacte de la passerelle il suffit de rechercher l enuméro de parcelle indiqué dans le dictionnaire près de l'une des adresses.
 
-##Comment utiliser cet algorithme
+## **Comment utiliser cet algorithme**
 
 1) Rentrez la commande: pip install -r requirements.txt
 
