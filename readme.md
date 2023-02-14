@@ -17,6 +17,6 @@ Au lieu de scrapper le site de géoportail nous avons préférer travailler dire
 
 2) Pour lancer l'algorithme sur Thonon-les-Bains rentrer la commande: python3 /chemin/vers/le/dossier/contenant/l'algorithme/polygon.py
 
-exemple sur mon ordinateur: python3 /home/lucien/anaconda3/envs/tf/bin/python /home/lucien/Documents/scrapp_immo/polygon.py
+exemple sur mon ordinateur: python3 /home/lucien/Documents/scrapp_immo/polygon.py
 
-3) remarque: pour obtenir le chemin vers le fichier polygon.py, contenant l'algorithme, il suffit de fair eun clique droit sur le fichier à gauche et de copier le chemin
+3) remarque: pour obtenir le chemin vers le fichier polygon.py, contenant l'algorithme, il suffit de faire un clique droit sur le fichier à gauche et de copier le chemin
